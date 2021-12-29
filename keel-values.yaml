@@ -1,4 +1,13 @@
 ingress:
   enabled: true
   hosts:
-  - keel.127.0.0.1.nip.io
+  - host: keel.127.0.0.1.nip.io
+    paths:
+    - /
+service:
+  enabled: true
+  type: ClusterIP
+basicauth:
+  enabled: true
+  user: admin
+  password: admin
