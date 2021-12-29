@@ -1,0 +1,4 @@
+ingress:
+  enabled: true
+  hosts:
+  - keel.127.0.0.1.nip.io
